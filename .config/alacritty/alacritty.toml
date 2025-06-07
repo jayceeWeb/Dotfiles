@@ -1,0 +1,6 @@
+[font]
+size = 11.0
+    normal = { family = "Cozette", style = "Regular" }
+    bold = { family = "Cozette", style = "Bold" }
+    italic = { family = "Cozette", style = "Italic" }
+    bold_italic = { family = "Cozette", style = "Bold Italic" }
