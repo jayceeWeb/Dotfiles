@@ -1,1 +1,0 @@
-../../../ceres/gtk-2.0/theme/xtra-gimpr.c
