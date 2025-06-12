@@ -1,0 +1,47 @@
+# Theme Tweesee
+# Inspired by MORE ADVENTURES ~The Forever Fieldtrip~ from HALLEY LABS
+
+[colors.primary]
+foreground = "#edf2f0"
+background = "#131224"
+dim_foreground = "#95b2a6"
+bright_foreground = "#ffffff"
+
+[colors.cursor]
+text = "CellBackground"
+cursor = "CellForeground"
+
+[colors.vi_mode_cursor]
+text = "CellBackground"
+cursor = "CellForeground"
+
+[colors.normal]
+black = "#212029"
+red = "#E62131"
+green = "#2CB77B"
+yellow = "#ECDD57"
+blue = "#2F76D1"
+magenta = "#CC12CC"
+cyan = "#1EECE8"
+white = "#EFEFEF"
+
+[colors.bright]
+black = "#706D8A"
+red = "#F07B85"
+green = "#78DEB2"
+yellow = "#F4EB99"
+blue = "#82ACE3"
+magenta = "#F161F1"
+cyan = "#78F3F1"
+white = "#F6F6F6"
+
+[colors.dim]
+black = "#131318"
+red = "#8F101B"
+green = "#1B6F4A"
+yellow = "#AE9E13"
+blue = "#1C467D"
+magenta = "#7C0B7C"
+cyan = "#0D9290"
+white = "#909090"
+

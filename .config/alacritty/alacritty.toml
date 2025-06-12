@@ -1,6 +1,66 @@
+# For additional information on configuring Alacritty, visit https://alacritty.org/config-alacritty.html
+# I highly recommend you configure this for your own needs as what works for me might not work for you!
+
+[general]
+# import theme and keybinds
+import = [ "~/.config/alacritty/themes/theme-tweesee.toml" ]
+live_config_reload = true
+
+# Window settings
+[window.dimensions]
+columns = 120
+lines = 40
+
+[window]
+resize_increments = true
+dynamic_padding = true
+opacity = 0.66
+title = "TERM_SESSION"
+dynamic_title = false
+
+# Font settings
 [font]
-size = 11
-    normal = { family = "Cozette", style = "Regular" }
-    bold = { family = "Cozette", style = "Bold" }
-    italic = { family = "Cozette", style = "Italic" }
-    bold_italic = { family = "Cozette", style = "Bold Italic" }
+size = 12
+builtin_box_drawing = true
+
+[font.normal]
+family = "Anomaly Mono"
+style = "Regular"
+
+[font.bold]
+style = "Bold"
+
+[font.italic]
+style = "Italic"
+
+[font.bold_italic]
+style = "Bold Italic"
+
+# Selection settings
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
+
+# Cursor settings
+[cursor.style]
+shape = "Underline"
+blinking = "On"
+
+[cursor]
+unfocused_hollow = true
+thickness = 0.1
+
+# Scrolling settings
+[scrolling]
+history = 25000
+multiplier = 1
+
+# Hint settings
+[[hints.enabled]]
+regex = "(https?://[^\"]+)"
+hyperlinks = true
+post_processing = true
+persist = false
+command = "exo-open"
+mouse.enabled = true
+binding = { key = "U", mods = "Control|Shift" }
