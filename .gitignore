@@ -1,3 +1,6 @@
-.icons/Tela-circle*/
-.themes/Obsidian*/
-.themes/Mowi-24/
+.icons/*
+!.icons/*.tar.gz
+.themes/*
+!.themes/*.tar.gz
+.fonts/*
+!.fonts/*
